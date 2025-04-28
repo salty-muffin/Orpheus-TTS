@@ -2,11 +2,11 @@ name: orpheus-tts
 channels:
   - defaults
 dependencies:
-  - python=3.12.9
+  - python=3.12
   - pip
   - pip:
       - click==8.1.8
-      - datasets==3.4.1
+      - datasets<3.0.0
       - huggingface-hub==0.29.3
       - librosa==0.11.0
       - numpy==1.26.4
