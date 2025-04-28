@@ -1,7 +1,6 @@
 from typing import Optional
 from snac import SNAC
 import torch
-import numpy as np
 import soundfile as sf
 import os
 import click
